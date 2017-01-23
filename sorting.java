@@ -6,6 +6,8 @@ package lesson8.lab4.mycounter;
 import java.util.*;
 import java.util.stream.Collectors;
 
+
+//second change
 public class sorting {
     public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
         return map.entrySet()
@@ -17,5 +19,6 @@ public class sorting {
                         (e1, e2) -> e1,
                         LinkedHashMap::new
                 ));
+//third change
     }
 }

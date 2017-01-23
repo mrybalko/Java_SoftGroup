@@ -13,7 +13,7 @@ public class wordsCounter {
     private int newValue;
     private int totalNumberOfWords;
     public Map<String, Integer> words = new HashMap<>();
-
+//second change
     public void Counter() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("D:\\Programming\\JAVA SE8 Spec\\lab4\\inFile.txt"), "Windows-1251"));
 
@@ -40,6 +40,7 @@ public class wordsCounter {
         reader.close();
         System.out.printf("Total number of the words: %d\n", totalNumberOfWords);
     }
+//third change
     public void writeToFile() throws IOException {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
                 new FileOutputStream("D:\\Programming\\JAVA SE8 Spec\\lab4\\out.doc")));
