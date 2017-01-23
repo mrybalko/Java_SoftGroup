@@ -3,6 +3,8 @@ package lesson8.lab4.mycounter;
 import java.io.*;
 import java.util.*;
 
+//first change
+
 public class wordsCounter {
     private String currentString;
     private String currentWord;
