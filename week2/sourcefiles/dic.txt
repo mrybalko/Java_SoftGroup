@@ -1,0 +1,6 @@
+white-белый
+black-чёрный
+green-зелёный
+red-красный
+blue-синий
+grey-серый
